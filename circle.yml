@@ -1,0 +1,18 @@
+---> cat oms/circle.yml 
+# CircleCI container settings -- not all versions of PHP are supported
+# See https://circleci.com/docs/environment#php for a list of support versions.
+
+machine:
+  - echo "machine"
+
+dependencies:
+  - echo "dependencies"
+
+database:
+  - echo "database"
+
+test:
+  - echo "test"
+
+deployment:
+  - echo "deployment"
